@@ -33,7 +33,7 @@ const boxTwo= info.map((item,i)=>{
          <h2 className='font-medium text-xl mb-4 sm:ml-4'>{item.title}</h2>
          {selected===i?<IoIosArrowUp size={26} />:<IoIosArrowDown size={26} />}
       </div>
-             <div className={`px-4 ${selected===i?'overflow-hidden h-44 transition-all duration-2000 ease-linear':' overflow-hidden h-0 transition-all duration-2000 ease-linear'}`}>
+             <div className={`px-4 ${selected===i?'overflow-hidden h-48 transition-all duration-2000 ease-linear':' overflow-hidden h-0 transition-all duration-2000 ease-linear'}`}>
                 {item.data.map((item,i)=>{
                     return <Link className='block mt-3' key={i}>{item}</Link>
                })
