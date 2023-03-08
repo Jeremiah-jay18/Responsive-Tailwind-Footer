@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Crimson+Text&family=Philosopher&family=Roboto:wght@100&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(92, 194, 207, 0.089);
+}
+.wrapper{
+border:2px solid black;
+padding:2.3rem 2rem;
+max-width:20rem;
+margin:auto;
+border-radius: 0.5rem;
+}
+.message{
+    font-size:1.5rem ;
+    font-weight: bold;
+}
+.form-block form span{
+    display: block;
+    margin-top: 1rem;
+}
+.form-block input{
+    border-radius: 0.2rem;
+    width:100%;
+    border:1px solid black
+}
+.end{
+    display:flex;
+    gap:0.1rem;
+    margin-top:1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.end button{
+    background-color: blue;
+    color:white;
+    padding:0.7rem;
+    border-radius: 2rem;
+    width:6rem;
+    text-align: center;
+}
+.end span{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.foot{
+    margin:2rem auto 0rem auto;
+    font-weight: bold;
+    text-align: center;
+}
+.foot button{
+    display:block;
+    text-decoration:underline ;
+    margin:auto}
+
+
+.web-body{
+    border :1px solid black ;
+    margin:2rem;
+    border-radius: 0.6rem;
+    padding:1.5rem 6rem 7rem 6rem;
+}
+
+.web-nav nav ul{
+    display:flex;
+    gap:1rem;
+    justify-content: flex-end;
+    align-items: center;
+    padding:1rem;
+}
+.web-nav #img{
+    text-decoration: underline;
+}
+.web-search{
+    margin: 3rem 0 3rem 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.web-search .search-bar{
+    border:1px solid rgba(43, 39, 39, 0.658);
+    display: flex;
+    width:20rem;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.3rem 1rem rgb(170, 157, 157);
+}
+.web-search .search-bar img{
+    width:1.3rem;
+   cursor:pointer
+}
+.web-search .search-bar input{
+    outline:none;
+    width:100%
+}
+.web-search button{
+    background-color: black;
+    color:white;
+    padding:0.5rem 1.5rem;
+    border-radius: 0.3rem;
+}
+.image-gallery{
+    width:105%;
+    display: flex;
+    flex-direction: row;
+    gap:1.5rem;
+    flex-wrap: wrap;
+}
+.image-gallery div{
+       width:20rem;
+       position: relative;
+}
+.image-gallery div img{
+    width:100%;height:100%
+}
+.image-gallery div .info-bar{
+    position: absolute;
+    bottom:0;
+    display:flex;
+    color:white;
+    padding:0.3rem 1rem;
+    background-color: rgba(0, 0, 0, 0.349);
+    justify-content: space-between;
+    width:100%;
+}
+.image-gallery .info-bar span{
+    display:block
+}
+.image-gallery .info-bar img{
+    width:3rem   
+}
+
+
+.trans{
+   transition: all 500ms linear;
+
+}
+.font-loader {
+    font-family: 'Chilanka';
+  }
+.form{
+    margin-top:3.8rem
+}  
+.footer-head{
+    font-family: 'Black Ops One', cursive;
+}
+.footer-text{
+    font-family: 'Crimson Text', serif;
+}
+.footer-foot{
+    text-align: center;
+}
+.foot-icons-one{
+    display:none
+}
+.accordion{
+    transition: all 500ms linear;
+}
