@@ -30,7 +30,7 @@ function toggleAccordion(i){
 const boxTwo= info.map((item,i)=>{
     return <div key={item.id} className='sm:mt-3 border border-l-black border-r-black sm:-mx-3'>
       <div className={`flex justify-between cursor-pointer border-left-black content-center sm:pt-2`} onClick={()=>toggleAccordion(i)}  >
-         <h2 className='font-medium text-xl mb-4 sm:ml-6'>{item.title}</h2>
+         <h2 className='font-medium text-xl mb-4 sm:ml-4'>{item.title}</h2>
          {selected===i?<IoIosArrowUp size={26} />:<IoIosArrowDown size={26} />}
       </div>
              <div className={`px-4 ${selected===i?'h-44 transition-all duration-2000 ease-linear':' overflow-hidden h-0 transition-all duration-2000 ease-linear'}`}>
