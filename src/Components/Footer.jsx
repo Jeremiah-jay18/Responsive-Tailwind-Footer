@@ -30,7 +30,7 @@ function toggleAccordion(i){
 const boxTwo= info.map((item,i)=>{
     return <div key={item.id} className='sm:mt-3 border border-l-neutral-900 border-r-neutral-900 sm:-mx-3'>
       <div className={`flex justify-between cursor-pointer border-left-black content-center sm:pt-2`} onClick={()=>toggleAccordion(i)}  >
-         <h2 className='font-medium text-xl mb-4 sm:ml-4 sm:text-sm sm:font-medium'>{item.title}</h2>
+         <h2 className='text-gray-300 font-medium text-xl mb-4 sm:ml-4 sm:text-sm sm:font-medium'>{item.title}</h2>
          {selected===i?<IoIosArrowUp size={20} />:<IoIosArrowDown size={20} />}
       </div>
              <div className={`px-6 ${selected===i?'h-48 transition-all duration-2000 ease-linear overflow-hidden':' overflow-hidden h-0 transition-all duration-2000 ease-linear'}`}>
@@ -42,7 +42,7 @@ const boxTwo= info.map((item,i)=>{
         </div>
 })
   return (
-    <div className='bg-neutral-900 text-gray-300'>
+    <div className='bg-neutral-900 text-white'>
 {/* General Blocks Wrapper */}
         <div className="foot-wrapper lg:flex lg:justify-between sm:block ">
 {/* Between Valdymas block and Info block */}
@@ -68,9 +68,9 @@ const boxTwo= info.map((item,i)=>{
 
  <div className=" form ">
     <form action=''>
-        <div className="flex gap-4 mb-10 sm:justify-center items-center">
+        <div className="text-gray-300 flex gap-4 mb-10 sm:justify-center items-center">
             <MdEmail size={26}/>
-            <h2 className='text-md font-medium sm:text-sm'>Stay Up To Date On The Latest From Valdymas</h2>
+            <h2 className='text-md font-medium sm:text-sm text-white'>Stay Up To Date On The Latest From Valdymas</h2>
         </div>
         <div className="flex gap-6 mb-4">
             <input type="text" className=" bg-neutral-900 py-3 placeholder-gray-500 bg-black border sm:w-full
@@ -84,7 +84,7 @@ const boxTwo= info.map((item,i)=>{
          <div className='py-3 border border-t-neutral-900  border-r-neutral-900 border-l-neutral-900'>
          <p>
           <label htmlFor="agree">
-         <input id='agree'type="checkbox" className='mr-2'/><span className="sm:text-xs">I have read and accepted the <Link className='underline' to =''>school policy</Link></span>
+         <input id='agree'type="checkbox" className=' mr-2'/><span className="text-gray-300 sm:text-xs">I have read and accepted the <Link className='underline' to =''>school policy</Link></span>
         </label>
         </p>
          </div>
@@ -109,7 +109,7 @@ const boxTwo= info.map((item,i)=>{
 </div>
 
 <hr />
-<div className='sm:text-sm py-5 px-4 footer-foot'>@2023 Valdymas. <span className='block'>
+<div className='sm:text-sm py-5 px-4 footer-foot text-gray-300'>@2023 Valdymas. <span className='block'>
 All Rights Reserved
   </span></div>
 
