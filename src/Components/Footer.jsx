@@ -28,7 +28,7 @@ function toggleAccordion(i){
 }
 
 const boxTwo= info.map((item,i)=>{
-    return <div key={item.id} className='sm:mt-3 border border-l-neutral-900 border-r-neutral-900 sm:-mx-3'>
+    return <div key={item.id} className='sm:mt-3 border border-t-neutral-500 border-b-neutral-500 border-l-neutral-900 border-r-neutral-900 sm:-mx-3'>
       <div className={`flex justify-between cursor-pointer border-left-black content-center sm:pt-2`} onClick={()=>toggleAccordion(i)}  >
          <h2 className='text-gray-300 font-medium text-xl mb-4 sm:ml-4 sm:text-sm sm:font-medium'>{item.title}</h2>
          {selected===i?<IoIosArrowUp size={20} />:<IoIosArrowDown size={20} />}
@@ -74,13 +74,13 @@ const boxTwo= info.map((item,i)=>{
         </div>
         <div className="flex gap-6 mb-4">
             <input type="text" className=" bg-neutral-900 py-3 placeholder-gray-500 bg-black border sm:w-full
-            border-b-white border-t-neutral-900  border-r-neutral-900 border-l-neutral-900 outline-none " placeholder='First Name ' />
+            border-b-neutral-500 border-t-neutral-900  border-r-neutral-900 border-l-neutral-900 outline-none " placeholder='First Name ' />
             <input type="text" className="bg-neutral-900 py-3 placeholder-gray-500 bg-black border sm:w-full
-             border-b-white border-t-neutral-900  border-r-neutral-900 border-l-neutral-900
+             border-b-neutral-500 border-t-neutral-900  border-r-neutral-900 border-l-neutral-900
             shadow-md outline-none " placeholder='Last Name'/>
         </div>
         <input type="email" className="bg-neutral-900 py-2 placeholder-gray-500 bg-black shadow-md border 
-         border-b-white border-t-neutral-900  border-r-neutral-900 border-l-neutral-900 outline-none w-full" placeholder='Email'/>
+         border-b-neutral-500 border-t-neutral-900  border-r-neutral-900 border-l-neutral-900 outline-none w-full" placeholder='Email'/>
          <div className='py-3 border border-t-neutral-900  border-r-neutral-900 border-l-neutral-900'>
          <p>
           <label htmlFor="agree">
