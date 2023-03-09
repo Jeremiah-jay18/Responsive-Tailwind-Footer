@@ -42,7 +42,7 @@ const boxTwo= info.map((item,i)=>{
         </div>
 })
   return (
-    <div className='bg-neutral-900 text-white'>
+    <div className='bg-neutral-900 text-gray-300'>
 {/* General Blocks Wrapper */}
         <div className="foot-wrapper lg:flex lg:justify-between sm:block ">
 {/* Between Valdymas block and Info block */}
