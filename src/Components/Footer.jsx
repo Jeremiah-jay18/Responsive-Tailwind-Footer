@@ -81,7 +81,7 @@ const boxTwo= info.map((item,i)=>{
         </div>
         <input type="email" className="bg-neutral-900 py-2 placeholder-gray-500 bg-black shadow-md border 
          border-b-neutral-500 border-t-neutral-900  border-r-neutral-900 border-l-neutral-900 outline-none w-full" placeholder='Email'/>
-         <div className='py-3 border border-t-neutral-900  border-r-neutral-900 border-l-neutral-900'>
+         <div className='py-3 border border-t-neutral-900  border-r-neutral-900 border-l-neutral-900 border-b-neutral-500'>
          <p>
           <label htmlFor="agree">
          <input id='agree'type="checkbox" className=' mr-2'/><span className="text-gray-300 sm:text-xs">I have read and accepted the <Link className='underline' to =''>school policy</Link></span>
