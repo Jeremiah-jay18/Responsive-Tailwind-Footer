@@ -109,7 +109,7 @@ const boxTwo= info.map((item,i)=>{
 </div>
 
 <hr />
-<div className='sm:text-sm py-5 px-4 footer-foot text-gray-300'>@2023 Valdymas. <span className='block'>
+<div className='sm:text-sm py-5 px-4 footer-foot text-gray-300'>@2023 Valdymas College. <span className='block'>
 All Rights Reserved
   </span></div>
 
