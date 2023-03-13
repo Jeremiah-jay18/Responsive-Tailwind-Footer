@@ -8,11 +8,11 @@ import Advice from './Components/Advice'
 
 function App() {
  return(
- <>    
+ <div className='bg-black my-auto'>    
 {/* <Home/>
 <SignUp/> */}
 <Advice/>
-</>
+</div>
 
   )
 
